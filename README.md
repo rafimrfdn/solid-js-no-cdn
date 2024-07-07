@@ -17,6 +17,22 @@ Now I create SolidJS to run locally without install it and no CDN.
 - npx serve
 - visit http://localhost:3000
 
+## The hard part
+
+It is tricky to write javascript code using Solid with this repo, because we have to understand how to write it in `javascript literal syntax`.
+
+```js
+${() => {
+    return html`
+<p>halo</p>
+`
+}}
+```
+
+Do not return empty html tag like JSX do `<>`
+
+If you are confused, just ask ChatGPT to fix your code.
+
 ## More info
 
 - this is based on solid.js v1.8.18

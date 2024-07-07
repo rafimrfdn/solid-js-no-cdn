@@ -7,8 +7,9 @@ const Counter = () => {
   const timer = setInterval(() => setCount(count() + 1), 1000)
   onCleanup(() => clearInterval(timer))
   return html`
-<h2>my counter</h2>
+<h2>My Counter</h2>
 <h4>${count}</h4>
+
 `
 }
 
